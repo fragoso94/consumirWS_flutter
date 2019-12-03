@@ -1,0 +1,16 @@
+{
+  "users":[
+    {"id":1, "name":"daniel fragoso", "username":"dfragoso","email":"ing.fragoso@gmail.com", "image":"https://i.ibb.co/ZH7356D/cody.jpg"},
+    {"id":2, "name":"Jose Gomez", "username":"prodani","email":"prodani_fragoso@live.com", "image":"https://gersonlazaro.com/images/2016/06/camara-imagenes-gratis.jpg"},
+    {"id":2, "name":"Valeria ramos", "username":"valery","email":"testing@yopmail.com", "image":"https://i.ibb.co/ZH7356D/cody.jpg"}
+  ],
+  "posts": [
+    { "id": 1, "title": "¿por que es bueno flutter que react native?", "body":"porque se compila directamente sin utilizar un puente..", "userId":1 },
+    { "id": 2, "title": "¿porque es mejor Angular que Reactjs?", "body":"porque es más dificil hacer trafico con angular y es dificil burlar los bots de google..", "userId":1 },
+    { "id": 3, "title": "¿cual es la mejor plataforma online de programación?", "body":"las plataformas son buenas, lo que hace distinguir son la calidad de los profesores..", "userId":2 }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ]
+}
